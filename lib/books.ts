@@ -48,7 +48,7 @@ export const bookshelfSections: BookshelfSection[] = [
         title: "Zero to One",
         author: "Peter Thiel",
         url: "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296",
-        cover_image_url: "https://covers.openlibrary.org/b/isbn/0804139296-L.jpg",
+        cover_image_url: "https://m.media-amazon.com/images/I/51zGCdRQXOL._SL1200_.jpg",
       },
       {
         title: "The Hard Thing About Hard Things",
@@ -89,7 +89,7 @@ export const bookshelfSections: BookshelfSection[] = [
         title: "7 Powers: The Foundations of Business Strategy",
         author: "Hamilton Helmer",
         url: "https://www.amazon.com/7-Powers-Foundations-Business-Strategy/dp/0998116319",
-        cover_image_url: "https://covers.openlibrary.org/b/isbn/0998116319-L.jpg",
+        cover_image_url: "https://m.media-amazon.com/images/I/61ZScoZzPLL._SL1360_.jpg",
       },
       {
         title: "Payments Systems in the U.S.: A Guide for the Payments Professional",
@@ -113,13 +113,13 @@ export const bookshelfSections: BookshelfSection[] = [
         title: "The Intelligent Investor",
         author: "Benjamin Graham",
         url: "https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661",
-        cover_image_url: "https://covers.openlibrary.org/b/isbn/0060555661-L.jpg",
+        cover_image_url: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1409602421i/106835.jpg",
       },
       {
         title: "The New New Thing",
         author: "Michael Lewis",
         url: "https://www.amazon.com/New-Thing-Silicon-Valley-Story/dp/0393347818",
-        cover_image_url: "https://covers.openlibrary.org/b/isbn/0393347818-L.jpg",
+        cover_image_url: "https://m.media-amazon.com/images/I/51WlGV+X4+L._SL1199_.jpg",
       },
       {
         title: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
