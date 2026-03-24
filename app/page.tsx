@@ -30,14 +30,14 @@ export default function HomePage() {
               </span>
             </Link>
 
-            <div className="grid grid-cols-6 gap-2 md:grid-cols-8 md:gap-3">
+            <div className="flex max-w-[27.75rem] flex-wrap gap-3">
               {yearData.books.map((book) => (
                 <a
                   key={book.title}
                   href={book.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="relative aspect-[2/3] w-full overflow-hidden rounded-sm bg-neutral-900 shadow-md transition-transform duration-200 hover:scale-110"
+                  className="relative h-24 w-16 overflow-hidden rounded-sm bg-neutral-900 shadow-md transition-transform duration-200 hover:scale-110"
                 >
                   <Image
                     src={book.cover_image_url}
