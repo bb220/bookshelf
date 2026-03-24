@@ -35,8 +35,6 @@ export default function HomePage() {
                 <a
                   key={book.title}
                   href={book.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="relative aspect-[2/3] w-[calc((100%-2rem)/5)] overflow-hidden rounded-sm bg-neutral-900 shadow-md transition-transform duration-200 hover:scale-110 md:h-24 md:w-16"
                 >
                   <Image

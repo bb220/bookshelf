@@ -32,8 +32,6 @@ export default function Before2024Page() {
           <a
             key={book.title}
             href={book.url}
-            target="_blank"
-            rel="noopener noreferrer"
             className="group relative aspect-[2/3] overflow-hidden rounded-lg bg-neutral-900 shadow-lg transition-transform duration-300 hover:scale-105"
           >
             <Image

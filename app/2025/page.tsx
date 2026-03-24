@@ -32,8 +32,6 @@ export default function BooksPage2025() {
           <a
             key={book.title}
             href={book.url}
-            target="_blank"
-            rel="noopener noreferrer"
             className="group relative block aspect-[2/3] w-full overflow-hidden rounded-sm bg-neutral-900 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-white/10"
           >
             <Image
