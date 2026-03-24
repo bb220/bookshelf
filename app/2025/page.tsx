@@ -3,44 +3,9 @@
 import Image from "next/image"
 import Link from "next/link"
 
-const books = [
-  {
-    title: "The Hard Thing About Hard Things",
-    author: "Ben Horowitz",
-    url: "https://a16z.com/books/the-hard-thing-about-hard-things/",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/0062273205-L.jpg",
-  },
-  {
-    title: "Zero to One",
-    author: "Peter Thiel",
-    url: "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/0804139296-L.jpg",
-  },
-  {
-    title: "You Can Just Do Things",
-    author: "Jay Yang",
-    url: "https://www.amazon.com/You-Can-Just-Things-Permissionless/dp/B0F3GPZL1C",
-    cover_image_url: "https://www.youcanjustdothingsbook.com/book-cover.jpg",
-  },
-  {
-    title: "The Elements of Style",
-    author: "William Strunk Jr. & E.B. White",
-    url: "https://www.amazon.com/Elements-Style-Fourth-William-Strunk/dp/020530902X",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/020530902X-L.jpg",
-  },
-  {
-    title: "The Paradox of Choice",
-    author: "Barry Schwartz",
-    url: "https://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005688",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/0060005688-L.jpg",
-  },
-  {
-    title: "Working Backwards",
-    author: "Colin Bryar & Bill Carr",
-    url: "https://www.amazon.com/Working-Backwards-Insights-Stories-Secrets/dp/1250267595",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/1250267595-L.jpg",
-  },
-]
+import { getBookshelfSection } from "@/lib/books"
+
+const books = getBookshelfSection("2025")?.books ?? []
 
 export default function BooksPage2025() {
   return (

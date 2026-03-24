@@ -3,32 +3,9 @@
 import Image from "next/image"
 import Link from "next/link"
 
-const books = [
-  {
-    title: "Thinking, Fast and Slow",
-    author: "Daniel Kahneman",
-    url: "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/0374533555-L.jpg",
-  },
-  {
-    title: "Read Your Mind",
-    author: "Oz Pearlman",
-    url: "https://www.amazon.com/Read-Your-Mind-Greatest-Mentalist/dp/B0DVBG7KSR",
-    cover_image_url: "https://images1.penguinrandomhouse.com/cover/9798217059041",
-  },
-  {
-    title: "Walt Disney: The Triumph of the American Imagination",
-    author: "Neal Gabler",
-    url: "https://www.amazon.com/Walt-Disney-Triumph-American-Imagination/dp/0679757473",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/0679757473-L.jpg",
-  },
-  {
-    title: "Enterprise Integration Patterns",
-    author: "Gregor Hohpe & Bobby Woolf",
-    url: "https://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/0321200683-L.jpg",
-  },
-]
+import { getBookshelfSection } from "@/lib/books"
+
+const books = getBookshelfSection("2026")?.books ?? []
 
 export default function BooksPage2026() {
   return (
