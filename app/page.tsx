@@ -52,6 +52,15 @@ export default function HomePage() {
           </section>
         ))}
       </div>
+
+      <footer className="mt-16 flex justify-end">
+        <a
+          href="/markdown/bookshelf.md"
+          className="rounded-full border border-neutral-800 px-4 py-2 text-sm font-medium text-neutral-300 transition-colors hover:border-neutral-700 hover:bg-neutral-900 hover:text-white"
+        >
+          Markdown
+        </a>
+      </footer>
     </main>
   )
 }
