@@ -1,93 +1,115 @@
-"use client"
-
 import Image from "next/image"
 import Link from "next/link"
 
-const books = [
+const years = [
   {
-    title: "The Hard Thing About Hard Things",
-    author: "Ben Horowitz",
-    url: "https://a16z.com/books/the-hard-thing-about-hard-things/",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/0062273205-L.jpg",
+    year: "2026",
+    books: [
+      {
+        title: "Thinking, Fast and Slow",
+        author: "Daniel Kahneman",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/0374533555-L.jpg",
+      },
+      {
+        title: "Read Your Mind",
+        author: "Oz Pearlman",
+        cover_image_url: "https://images1.penguinrandomhouse.com/cover/9798217059041",
+      },
+      {
+        title: "Walt Disney: The Triumph of the American Imagination",
+        author: "Neal Gabler",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/0679757473-L.jpg",
+      },
+      {
+        title: "Enterprise Integration Patterns",
+        author: "Gregor Hohpe & Bobby Woolf",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/0321200683-L.jpg",
+      },
+    ],
   },
   {
-    title: "Zero to One",
-    author: "Peter Thiel",
-    url: "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/0804139296-L.jpg",
-  },
-  {
-    title: "You Can Just Do Things",
-    author: "Jay Yang",
-    url: "https://www.amazon.com/You-Can-Just-Things-Permissionless/dp/B0F3GPZL1C",
-    cover_image_url: "https://www.youcanjustdothingsbook.com/book-cover.jpg",
-  },
-  {
-    title: "The Elements of Style",
-    author: "William Strunk Jr. & E.B. White",
-    url: "https://www.amazon.com/Elements-Style-Fourth-William-Strunk/dp/020530902X",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/020530902X-L.jpg",
-  },
-  {
-    title: "The Paradox of Choice",
-    author: "Barry Schwartz",
-    url: "https://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005688",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/0060005688-L.jpg",
-  },
-  {
-    title: "Working Backwards",
-    author: "Colin Bryar & Bill Carr",
-    url: "https://www.amazon.com/Working-Backwards-Insights-Stories-Secrets/dp/1250267595",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/1250267595-L.jpg",
+    year: "2025",
+    books: [
+      {
+        title: "The Hard Thing About Hard Things",
+        author: "Ben Horowitz",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/0062273205-L.jpg",
+      },
+      {
+        title: "Zero to One",
+        author: "Peter Thiel",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/0804139296-L.jpg",
+      },
+      {
+        title: "You Can Just Do Things",
+        author: "Jay Yang",
+        cover_image_url: "https://www.youcanjustdothingsbook.com/book-cover.jpg",
+      },
+      {
+        title: "The Elements of Style",
+        author: "William Strunk Jr. & E.B. White",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/020530902X-L.jpg",
+      },
+      {
+        title: "The Paradox of Choice",
+        author: "Barry Schwartz",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/0060005688-L.jpg",
+      },
+      {
+        title: "Working Backwards",
+        author: "Colin Bryar & Bill Carr",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/1250267595-L.jpg",
+      },
+    ],
   },
 ]
 
-export default function BooksPage() {
+export default function HomePage() {
   return (
     <main className="min-h-screen bg-neutral-950 px-6 py-12 md:px-12 lg:px-20">
-      <header className="mb-16 flex items-start justify-between">
-        <div>
-          <h1 className="text-7xl font-black tracking-tighter text-white md:text-8xl lg:text-9xl">
-            2025
-          </h1>
-          <p className="mt-2 text-sm uppercase tracking-widest text-neutral-500">
-            The best books that I read this year
-          </p>
-        </div>
-        <Link
-          href="/2026"
-          className="text-sm font-medium text-neutral-500 transition-colors hover:text-white"
-        >
-          2026
-        </Link>
+      <header className="mb-20">
+        <h1 className="text-5xl font-black tracking-tighter text-white md:text-6xl lg:text-7xl">
+          Brandon&apos;s Bookshelf
+        </h1>
+        <p className="mt-3 text-lg text-neutral-500">
+          The best books that I&apos;ve read
+        </p>
       </header>
 
-      <section className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:gap-8 lg:grid-cols-4 xl:grid-cols-6">
-        {books.map((book) => (
-          <a
-            key={book.title}
-            href={book.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group relative block aspect-[2/3] w-full overflow-hidden rounded-sm bg-neutral-900 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-white/10"
-          >
-            <Image
-              src={book.cover_image_url}
-              alt={`${book.title} by ${book.author}`}
-              fill
-              className="object-cover transition-all duration-300 group-hover:brightness-110"
-              sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 16vw"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-            <div className="absolute bottom-0 left-0 right-0 translate-y-full p-3 transition-transform duration-300 group-hover:translate-y-0">
-              <p className="text-xs font-medium text-white line-clamp-2">
-                {book.title}
-              </p>
-              <p className="mt-0.5 text-xs text-neutral-400">{book.author}</p>
+      <div className="space-y-16">
+        {years.map((yearData) => (
+          <section key={yearData.year}>
+            <Link
+              href={`/${yearData.year}`}
+              className="group mb-6 inline-flex items-center gap-2"
+            >
+              <h2 className="text-3xl font-bold text-white transition-colors group-hover:text-neutral-300 md:text-4xl">
+                {yearData.year}
+              </h2>
+              <span className="text-sm text-neutral-600 transition-colors group-hover:text-neutral-400">
+                {yearData.books.length} books
+              </span>
+            </Link>
+
+            <div className="flex flex-wrap gap-3">
+              {yearData.books.map((book) => (
+                <div
+                  key={book.title}
+                  className="relative h-24 w-16 overflow-hidden rounded-sm bg-neutral-900 shadow-md"
+                >
+                  <Image
+                    src={book.cover_image_url}
+                    alt={`${book.title} by ${book.author}`}
+                    fill
+                    className="object-cover"
+                    sizes="64px"
+                  />
+                </div>
+              ))}
             </div>
-          </a>
+          </section>
         ))}
-      </section>
+      </div>
     </main>
   )
 }
