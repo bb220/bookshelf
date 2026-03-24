@@ -49,7 +49,7 @@ export default function BooksPage() {
           2025
         </h1>
         <p className="mt-2 text-sm uppercase tracking-widest text-neutral-500">
-          Books Read
+          The best books that I read this year
         </p>
       </header>
 
