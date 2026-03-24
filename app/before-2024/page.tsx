@@ -20,7 +20,7 @@ const books = [
     title: "A View from the Bottom",
     author: "Louisa B. Lansbury",
     url: "https://www.amazon.com/View-Bottom-Louisa-B-Lansbury-ebook/dp/B0BCC6KSZR",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/B0BCS36VGG-L.jpg",
+    cover_image_url: "https://m.media-amazon.com/images/I/41Z5zV5XWSL._SY445_SX342_.jpg",
   },
   {
     title: "How to Win Friends and Influence People",
@@ -44,7 +44,7 @@ const books = [
     title: "Better Small Talk",
     author: "Patrick King",
     url: "https://www.amazon.com/Better-Small-Talk-Awkwardness-Conversations/dp/1647431069",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/1647431069-L.jpg",
+    cover_image_url: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1590614400i/53512231.jpg",
   },
   {
     title: "Rich Dad Poor Dad",
