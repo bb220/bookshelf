@@ -72,6 +72,29 @@ const years = [
       },
     ],
   },
+  {
+    year: "2024",
+    books: [
+      {
+        title: "7 Powers: The Foundations of Business Strategy",
+        author: "Hamilton Helmer",
+        url: "https://www.amazon.com/7-Powers-Foundations-Business-Strategy/dp/0998116319",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/0998116319-L.jpg",
+      },
+      {
+        title: "Payments Systems in the U.S.: A Guide for the Payments Professional",
+        author: "Carol Coye Benson, Scott Loftesness & Russ Jones",
+        url: "https://www.amazon.com/Payments-Systems-U-S-Third-Professional/dp/0982789742",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/9780982789742-L.jpg",
+      },
+      {
+        title: "The Anatomy of the Swipe: Making Money Move",
+        author: "Ahmed Siddiqui",
+        url: "https://www.amazon.com/Anatomy-Swipe-Making-Money-Move/dp/1641374470",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/9781641374477-L.jpg",
+      },
+    ],
+  },
 ]
 
 export default function HomePage() {
