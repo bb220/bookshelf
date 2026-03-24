@@ -20,7 +20,7 @@ const books = [
     title: "A View from the Bottom",
     author: "Louisa B. Lansbury",
     url: "https://www.amazon.com/View-Bottom-Louisa-B-Lansbury-ebook/dp/B0BCC6KSZR",
-    cover_image_url: "https://m.media-amazon.com/images/I/41Z5zV5XWSL._SY445_SX342_.jpg",
+    cover_image_url: "https://m.media-amazon.com/images/I/61rwK36szfL._AC_UF1000,1000_QL80_.jpg",
   },
   {
     title: "How to Win Friends and Influence People",
