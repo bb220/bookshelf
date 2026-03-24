@@ -95,6 +95,60 @@ const years = [
       },
     ],
   },
+  {
+    year: "Before 2024",
+    slug: "before-2024",
+    books: [
+      {
+        title: "The Intelligent Investor",
+        author: "Benjamin Graham",
+        url: "https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/0060555661-L.jpg",
+      },
+      {
+        title: "The New New Thing",
+        author: "Michael Lewis",
+        url: "https://www.amazon.com/New-Thing-Silicon-Valley-Story/dp/0393347818",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/0393347818-L.jpg",
+      },
+      {
+        title: "A View from the Bottom",
+        author: "Louisa B. Lansbury",
+        url: "https://www.amazon.com/View-Bottom-Louisa-B-Lansbury-ebook/dp/B0BCC6KSZR",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/B0BCS36VGG-L.jpg",
+      },
+      {
+        title: "How to Win Friends and Influence People",
+        author: "Dale Carnegie",
+        url: "https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/0671027034-L.jpg",
+      },
+      {
+        title: "Radical Candor",
+        author: "Kim Scott",
+        url: "https://www.amazon.com/Radical-Candor-Revised-Kick-Ass-Humanity/dp/1250235375",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/1250235375-L.jpg",
+      },
+      {
+        title: "How to Listen with Intention",
+        author: "Patrick King",
+        url: "https://www.amazon.com/How-Listen-Intention-Communication-Relationships/dp/1647431743",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/1647431743-L.jpg",
+      },
+      {
+        title: "Better Small Talk",
+        author: "Patrick King",
+        url: "https://www.amazon.com/Better-Small-Talk-Awkwardness-Conversations/dp/1647431069",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/1647431069-L.jpg",
+      },
+      {
+        title: "Rich Dad Poor Dad",
+        author: "Robert Kiyosaki",
+        url: "https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612680194",
+        cover_image_url: "https://covers.openlibrary.org/b/isbn/1612680194-L.jpg",
+      },
+    ],
+  },
 ]
 
 export default function HomePage() {
@@ -113,7 +167,7 @@ export default function HomePage() {
         {years.map((yearData) => (
           <section key={yearData.year}>
             <Link
-              href={`/${yearData.year}`}
+              href={`/${yearData.slug || yearData.year}`}
               className="group mb-6 inline-flex items-center gap-2"
             >
               <h2 className="text-3xl font-bold text-white transition-colors group-hover:text-neutral-300 md:text-4xl">
