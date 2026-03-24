@@ -14,7 +14,7 @@ const books = [
     title: "Read Your Mind",
     author: "Oz Pearlman",
     url: "https://www.amazon.com/Read-Your-Mind-Greatest-Mentalist/dp/B0DVBG7KSR",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/9798217059041-L.jpg",
+    cover_image_url: "https://images1.penguinrandomhouse.com/cover/9798217059041",
   },
   {
     title: "Walt Disney: The Triumph of the American Imagination",
