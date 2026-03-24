@@ -19,7 +19,7 @@ const books = [
     title: "You Can Just Do Things",
     author: "Jay Yang",
     url: "https://www.amazon.com/You-Can-Just-Things-Permissionless/dp/B0F3GPZL1C",
-    cover_image_url: "https://covers.openlibrary.org/b/isbn/9798992459203-L.jpg",
+    cover_image_url: "https://www.youcanjustdothingsbook.com/book-cover.jpg",
   },
   {
     title: "The Elements of Style",
