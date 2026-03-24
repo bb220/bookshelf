@@ -122,16 +122,16 @@ export const bookshelfSections: BookshelfSection[] = [
         cover_image_url: "https://covers.openlibrary.org/b/isbn/0393347818-L.jpg",
       },
       {
-        title: "Information Rules: A Strategic Guide to the Network Economy",
-        author: "Carl Shapiro & Hal R. Varian",
-        url: "https://www.amazon.com/Information-Rules-Strategic-Network-Economy/dp/087584863X",
-        cover_image_url: "https://m.media-amazon.com/images/I/61atJCARUwL._SL1367_.jpg",
-      },
-      {
         title: "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
         author: "Ashlee Vance",
         url: "https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X",
         cover_image_url: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1518291452i/25541028.jpg",
+      },
+      {
+        title: "Information Rules: A Strategic Guide to the Network Economy",
+        author: "Carl Shapiro & Hal R. Varian",
+        url: "https://www.amazon.com/Information-Rules-Strategic-Network-Economy/dp/087584863X",
+        cover_image_url: "https://m.media-amazon.com/images/I/61atJCARUwL._SL1367_.jpg",
       },
       {
         title: "A View from the Bottom",
@@ -170,12 +170,6 @@ export const bookshelfSections: BookshelfSection[] = [
         cover_image_url: "https://covers.openlibrary.org/b/isbn/1612680194-L.jpg",
       },
       {
-        title: "Halo: The Fall of Reach",
-        author: "Eric Nylund",
-        url: "https://bookshop.org/p/books/halo-the-fall-of-reach-volume-1-eric-nylund/6682345",
-        cover_image_url: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1436746591i/60229.jpg",
-      },
-      {
         title: "The Hobbit",
         author: "J.R.R. Tolkien",
         url: "https://www.amazon.com/Hobbit-J-R-Tolkien/dp/054792822X",
@@ -188,6 +182,12 @@ export const bookshelfSections: BookshelfSection[] = [
         cover_image_url: "https://pictures.abebooks.com/inventory/32225051540.jpg",
       },
       {
+        title: "Essays and Poems",
+        author: "Ralph Waldo Emerson",
+        url: "https://www.barnesandnoble.com/w/essays-and-poems-by-ralph-waldo-emerson-ralph-waldo-emerson/1100623185",
+        cover_image_url: "https://i.thriftbooks.com/api/imagehandler/m/B31C9911DE2323EDEA4D5FBA41720D4B1387B724.jpeg",
+      },
+      {
         title: "Adventures of Huckleberry Finn",
         author: "Mark Twain",
         url: "https://www.barnesandnoble.com/w/adventures-of-huckleberry-finn-barnes-noble-classics-series-mark-twain/1106017531",
@@ -198,12 +198,6 @@ export const bookshelfSections: BookshelfSection[] = [
         author: "Mark Twain",
         url: "https://www.amazon.com/Adventures-Tom-Sawyer-Mark-Twain/dp/0486400778",
         cover_image_url: "https://i.thriftbooks.com/api/imagehandler/m/048B7CB03C4CEA76CA77B1E8745D22273B9247E9.jpeg",
-      },
-      {
-        title: "Essays and Poems",
-        author: "Ralph Waldo Emerson",
-        url: "https://www.barnesandnoble.com/w/essays-and-poems-by-ralph-waldo-emerson-ralph-waldo-emerson/1100623185",
-        cover_image_url: "https://i.thriftbooks.com/api/imagehandler/m/B31C9911DE2323EDEA4D5FBA41720D4B1387B724.jpeg",
       },
       {
         title: "A Tale of Two Cities",
@@ -230,6 +224,12 @@ export const bookshelfSections: BookshelfSection[] = [
         cover_image_url: "https://covers.openlibrary.org/b/isbn/0140177396-L.jpg",
       },
       {
+        title: "Halo: The Fall of Reach",
+        author: "Eric Nylund",
+        url: "https://bookshop.org/p/books/halo-the-fall-of-reach-volume-1-eric-nylund/6682345",
+        cover_image_url: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1436746591i/60229.jpg",
+      },
+      {
         title: "The Grapes of Wrath",
         author: "John Steinbeck",
         url: "https://www.amazon.com/Grapes-Wrath-John-Steinbeck/dp/0143039431",
@@ -240,6 +240,12 @@ export const bookshelfSections: BookshelfSection[] = [
         author: "Aesop",
         url: "https://www.amazon.com/dp/B0084BKPTS?ref_=ppx_hzsearch_conn_dt_b_fed_digi_asin_title_351_4",
         cover_image_url: "https://m.media-amazon.com/images/P/B0084BKPTS.01._SX450_SY635_SCLZZZZZZZ_.jpg",
+      },
+      {
+        title: "The New American Bible, Revised Edition",
+        author: "United States Conference of Catholic Bishops",
+        url: "https://www.amazon.com/dp/B006QBDOPK?ref_=ppx_hzsearch_conn_dt_b_fed_digi_asin_title_351_1",
+        cover_image_url: "https://m.media-amazon.com/images/I/71MludAkj1L._SY522_.jpg",
       },
     ],
   },
