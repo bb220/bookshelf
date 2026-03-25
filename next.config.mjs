@@ -1,14 +1,30 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
   images: {
-    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
         hostname: "covers.openlibrary.org",
+      },
+      {
+        protocol: "https",
+        hostname: "images1.penguinrandomhouse.com",
+      },
+      {
+        protocol: "https",
+        hostname: "m.media-amazon.com",
+      },
+      {
+        protocol: "https",
+        hostname: "pictures.abebooks.com",
+      },
+      {
+        protocol: "https",
+        hostname: "prodimage.images-bn.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.youcanjustdothingsbook.com",
       },
     ],
   },
