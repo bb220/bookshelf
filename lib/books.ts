@@ -209,7 +209,7 @@ export const bookshelfSections: BookshelfSection[] = [
         title: "Of Mice and Men",
         author: "John Steinbeck",
         url: "https://www.amazon.com/Mice-Men-John-Steinbeck/dp/0140177396",
-        cover_image_url: "https://covers.openlibrary.org/b/isbn/0140177396-L.jpg",
+        cover_image_url: "https://m.media-amazon.com/images/I/81GteuONCRL._SY522_.jpg",
       },
       {
         title: "Oliver Twist",
