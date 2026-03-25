@@ -242,6 +242,18 @@ export const bookshelfSections: BookshelfSection[] = [
         cover_image_url: "https://m.media-amazon.com/images/P/B0084BKPTS.01._SX450_SY635_SCLZZZZZZZ_.jpg",
       },
       {
+        "title": "The Republic",
+        "author": "Plato",
+        "url": "https://www.amazon.com/Republic-Penguin-Classics-Plato/dp/0140455116/ref=pd_sbs_d_sccl_1_1/138-0595366-9691632?pd_rd_w=vylv5&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=NS9M796PKRK7D74MGDES&pd_rd_wg=wLt8R&pd_rd_r=bacd44a1-223b-49cf-989c-d405c357fe75&pd_rd_i=0140455116&psc=1",
+        "cover_image_url": "/the-republic.jpg"
+      },
+      {
+        "title": "Nicomachean Ethics",
+        "author": "Aristotle",
+        "url": "https://www.amazon.com/Nicomachean-Ethics-Aristotle-ebook/dp/B0GR4GP7BX/ref=tmm_kin_swatch_0",
+        "cover_image_url": "/ethics.jpg"
+      },
+      {
         title: "The New American Bible, Revised Edition",
         author: "United States Conference of Catholic Bishops",
         url: "https://www.amazon.com/dp/B006QBDOPK?ref_=ppx_hzsearch_conn_dt_b_fed_digi_asin_title_351_1",
