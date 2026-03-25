@@ -244,13 +244,13 @@ export const bookshelfSections: BookshelfSection[] = [
       {
         "title": "The Republic",
         "author": "Plato",
-        "url": "https://www.amazon.com/Republic-Penguin-Classics-Plato/dp/0140455116/ref=pd_sbs_d_sccl_1_1/138-0595366-9691632?pd_rd_w=vylv5&content-id=amzn1.sym.aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_p=aa738fbd-ad05-4d11-aae2-04b598db6305&pf_rd_r=NS9M796PKRK7D74MGDES&pd_rd_wg=wLt8R&pd_rd_r=bacd44a1-223b-49cf-989c-d405c357fe75&pd_rd_i=0140455116&psc=1",
+        "url": "https://www.amazon.com/Republic-Penguin-Classics-Plato/dp/0140455116/ref=tmm_pap_swatch_0",
         "cover_image_url": "/the-republic.jpg"
       },
       {
         "title": "Nicomachean Ethics",
         "author": "Aristotle",
-        "url": "https://www.amazon.com/Nicomachean-Ethics-Aristotle-ebook/dp/B0GR4GP7BX/ref=tmm_kin_swatch_0",
+        "url": "https://www.amazon.com/Nicomachean-Ethics-Oxford-Worlds-Classics/dp/0199213615/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.FKfaIjcbDT7d9Yo3VAIgRz4MGpSIuLw06R9gO_DZM7rD1dhNwKacdjJy1eAsKpvm92IIaRiXgK2s465lqTdcFiOrW66CBokmFGNr3wg6444H1thvZBpe8iUUHGLYquS2m35eCuzULUzwGkoAs4ikKeQuEf9ueV43JLolSciAGZatPzWLHAdZLzMn83FPek_F-aYx6Az1AYyydZvvBi-tcqv4K2z7NzzG5zR_MuQco-s.FVH-i9FgWgFCGRxLW_RjbXzYqAIwCK6Fm-ZhlUHdWTM&qid=1774448852&sr=1-3",
         "cover_image_url": "/ethics.jpg"
       },
       {
