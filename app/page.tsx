@@ -11,7 +11,7 @@ export default function HomePage() {
           Brandon&apos;s Bookshelf
         </h1>
         <p className="mt-3 text-lg text-neutral-500">
-          The best books that I've read each year. <a href="https://www.brandonbellero.com/posts/march-madness-tracker-experiment" className="underline hover:text-neutral-300">Learn more</a>.
+          The best books I've read each year. <a href="https://www.brandonbellero.com/posts/march-madness-tracker-experiment" className="underline hover:text-neutral-300">Learn more</a>.
         </p>
       </header>
 

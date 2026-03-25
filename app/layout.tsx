@@ -7,7 +7,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Brandon's Bookshelf",
-  description: "The best books that I've read each year. ",
+  description: "The best books I've read each year. ",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },

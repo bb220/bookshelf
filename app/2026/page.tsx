@@ -19,7 +19,7 @@ export default function BooksPage2026() {
             2026
           </h1>
           <p className="mt-2 text-sm uppercase tracking-widest text-neutral-500">
-            The best books that I read this year
+            The best books I've read
           </p>
         </div>
         <Link

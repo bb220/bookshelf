@@ -19,7 +19,7 @@ export default function Before2024Page() {
             Before 2024
           </h1>
           <p className="mt-2 text-sm uppercase tracking-widest text-neutral-500">
-            The best books that I read before 2024
+            The best books I've read
           </p>
         </div>
         <Link
