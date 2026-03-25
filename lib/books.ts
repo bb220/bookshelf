@@ -191,7 +191,7 @@ export const bookshelfSections: BookshelfSection[] = [
         title: "The Adventures of Tom Sawyer",
         author: "Mark Twain",
         url: "https://www.amazon.com/Adventures-Tom-Sawyer-Mark-Twain/dp/0486400778",
-        cover_image_url: "https://i.thriftbooks.com/api/imagehandler/m/048B7CB03C4CEA76CA77B1E8745D22273B9247E9.jpeg",
+        cover_image_url: "https://prodimage.images-bn.com/pimages/9781435172296_p0_v17_s1200x1200.jpg",
       },
       {
         title: "Halo: The Fall of Reach",
@@ -232,8 +232,8 @@ export const bookshelfSections: BookshelfSection[] = [
       {
         title: "Essays and Poems",
         author: "Ralph Waldo Emerson",
-        url: "https://www.barnesandnoble.com/w/essays-and-poems-by-ralph-waldo-emerson-ralph-waldo-emerson/1100623185",
-        cover_image_url: "https://i.thriftbooks.com/api/imagehandler/m/B31C9911DE2323EDEA4D5FBA41720D4B1387B724.jpeg",
+        url: "https://www.amazon.com/Essays-Poems-Ralph-Waldo-Emerson-ebook/dp/B006GHHP8G/ref=tmm_kin_swatch_0",
+        cover_image_url: "https://prodimage.images-bn.com/pimages/2940013324053_p0_v1_s600x595.jpg",
       },
       {
         title: "Aesop's Fables",
