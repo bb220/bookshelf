@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 
+import { MarkdownFooter } from "@/app/components/markdown-footer"
 import { getBookshelfSection } from "@/lib/books"
 
 export const metadata: Metadata = {
@@ -55,14 +56,7 @@ export default function BooksPage2024() {
         ))}
       </section>
 
-      <footer className="mt-12 flex justify-end">
-        <a
-          href="/markdown/2024.md"
-          className="rounded-full border border-neutral-800 px-4 py-2 text-sm font-medium text-neutral-300 transition-colors hover:border-neutral-700 hover:bg-neutral-900 hover:text-white"
-        >
-          Markdown
-        </a>
-      </footer>
+      <MarkdownFooter markdownPath="/markdown/2024.md" />
     </main>
   )
 }
