@@ -154,7 +154,7 @@ export const bookshelfSections: BookshelfSection[] = [
       {
         title: "Better Small Talk",
         author: "Patrick King",
-        url: "https://www.amazon.com/Better-Small-Talk-Awkwardness-Conversations/dp/1647431069",
+        url: "https://www.amazon.com/Better-Small-Talk-Awkwardness-Conversations/dp/B087349Q57",
         cover_image_url: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1590614400i/53512231.jpg",
       },
       {
