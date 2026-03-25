@@ -1,9 +1,12 @@
-"use client"
-
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 
 import { getBookshelfSection } from "@/lib/books"
+
+export const metadata: Metadata = {
+  title: "Brandon's Bookshelf - Before 2024",
+}
 
 const books = getBookshelfSection("Before 2024")?.books ?? []
 
