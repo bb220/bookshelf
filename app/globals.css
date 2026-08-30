@@ -120,9 +120,9 @@
     @apply border-border outline-ring/50;
   }
   html {
-    @apply bg-neutral-950;
+    @apply bg-background;
   }
   body {
-    @apply min-h-screen bg-neutral-950 text-white;
+    @apply min-h-screen bg-background text-foreground transition-colors duration-300;
   }
 }

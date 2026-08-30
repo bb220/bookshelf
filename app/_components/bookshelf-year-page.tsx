@@ -22,19 +22,19 @@ export function BookshelfYearPage({
   const books = getBookshelfSection(section)?.books ?? []
 
   return (
-    <main className="min-h-screen bg-neutral-950 px-6 py-12 md:px-12 lg:px-20">
+    <main className="min-h-screen bg-background px-6 py-12 transition-colors duration-300 md:px-12 lg:px-20">
       <header className="mb-16 flex items-start justify-between">
         <div>
-          <h1 className="text-7xl font-black tracking-tighter text-white md:text-8xl lg:text-9xl">
+          <h1 className="text-7xl font-black tracking-tighter text-foreground md:text-8xl lg:text-9xl">
             {title}
           </h1>
-          <p className="mt-2 text-sm uppercase tracking-widest text-neutral-500">
+          <p className="mt-2 text-sm uppercase tracking-widest text-muted-foreground">
             The best books I've read
           </p>
         </div>
         <Link
           href="/"
-          className="text-sm font-medium text-neutral-500 transition-colors hover:text-white"
+          className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
         >
           Home
         </Link>
@@ -45,7 +45,7 @@ export function BookshelfYearPage({
           <a
             key={book.title}
             href={book.url}
-            className="group relative block aspect-[2/3] w-full overflow-hidden rounded-sm bg-neutral-900 shadow-lg transition-transform duration-300 hover:scale-105"
+            className="group relative block aspect-[2/3] w-full overflow-hidden rounded-sm border border-border/60 bg-card shadow-lg shadow-black/10 transition-transform duration-300 hover:scale-105 dark:shadow-black/30"
           >
             <Image
               src={book.cover_image_url}
@@ -58,7 +58,7 @@ export function BookshelfYearPage({
               <h2 className="text-sm font-semibold leading-tight text-white">
                 {book.title}
               </h2>
-              <p className="mt-1 text-xs text-neutral-300">{book.author}</p>
+              <p className="mt-1 text-xs text-white/80">{book.author}</p>
             </div>
           </a>
         ))}
