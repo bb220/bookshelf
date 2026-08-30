@@ -173,7 +173,7 @@ export const bookshelfSections: BookshelfSection[] = [
         title: "The Hobbit",
         author: "J.R.R. Tolkien",
         url: "https://www.amazon.com/Hobbit-J-R-Tolkien/dp/054792822X",
-        cover_image_url: "https://prodimage.images-bn.com/pimages/9780547928227_p0_v4_s600x595.jpg",
+        cover_image_url: "https://m.media-amazon.com/images/P/054792822X.01.LZZZZZZZ.jpg",
       },
       {
         title: "The Lord of the Rings",
@@ -185,13 +185,13 @@ export const bookshelfSections: BookshelfSection[] = [
         title: "Adventures of Huckleberry Finn",
         author: "Mark Twain",
         url: "https://www.barnesandnoble.com/w/adventures-of-huckleberry-finn-barnes-noble-classics-series-mark-twain/1106017531",
-        cover_image_url: "https://prodimage.images-bn.com/pimages/9781593081126_p0_v2_s1200x1200.jpg",
+        cover_image_url: "https://cdn.shopify.com/s/files/1/0674/5433/7265/files/9781593081126_p0.jpg?v=1766001099",
       },
       {
         title: "The Adventures of Tom Sawyer",
         author: "Mark Twain",
         url: "https://www.amazon.com/Adventures-Tom-Sawyer-Mark-Twain/dp/0486400778",
-        cover_image_url: "https://prodimage.images-bn.com/pimages/9781435172296_p0_v17_s1200x1200.jpg",
+        cover_image_url: "https://m.media-amazon.com/images/P/0486400778.01.LZZZZZZZ.jpg",
       },
       {
         title: "Halo: The Fall of Reach",
@@ -215,13 +215,13 @@ export const bookshelfSections: BookshelfSection[] = [
         title: "Oliver Twist",
         author: "Charles Dickens",
         url: "https://www.barnesandnoble.com/w/oliver-twist-charles-dickens/1116610530",
-        cover_image_url: "https://prodimage.images-bn.com/pimages/9780141439747_p0_v4_s600x595.jpg",
+        cover_image_url: "https://cdn.shopify.com/s/files/1/0674/5433/7265/files/9780141439747_p0.jpg?v=1765265100",
       },
       {
         title: "A Tale of Two Cities",
         author: "Charles Dickens",
         url: "https://www.barnesandnoble.com/w/a-tale-of-two-cities-charles-dickens/1116666164",
-        cover_image_url: "https://prodimage.images-bn.com/pimages/9781435171480_p0_v5_s1200x1200.jpg",
+        cover_image_url: "https://cdn.shopify.com/s/files/1/0674/5433/7265/files/9781435171480_p0.jpg?v=1771248069",
       },
       {
         title: "The Grapes of Wrath",
@@ -233,7 +233,7 @@ export const bookshelfSections: BookshelfSection[] = [
         title: "Essays and Poems",
         author: "Ralph Waldo Emerson",
         url: "https://www.amazon.com/Essays-Poems-Ralph-Waldo-Emerson-ebook/dp/B006GHHP8G/ref=tmm_kin_swatch_0",
-        cover_image_url: "https://prodimage.images-bn.com/pimages/2940013324053_p0_v1_s600x595.jpg",
+        cover_image_url: "https://m.media-amazon.com/images/P/B006GHHP8G.01.LZZZZZZZ.jpg",
       },
       {
         title: "Aesop's Fables",

@@ -22,6 +22,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "www.youcanjustdothingsbook.com",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.shopify.com",
+      },
     ],
   },
 }
