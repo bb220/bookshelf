@@ -11,7 +11,9 @@ export default function HomePage() {
           Brandon&apos;s Bookshelf
         </h1>
         <p className="mt-3 text-lg text-muted-foreground">
-          The best books I've read each year. <a href="https://www.brandonbellero.com/posts/building-a-digital-bookshelf" className="underline hover:text-foreground">Learn more</a>.
+          The best books I've read each year.{" "}
+          <br className="md:hidden" />
+          <a href="https://www.brandonbellero.com/posts/building-a-digital-bookshelf" className="underline hover:text-foreground">Learn more</a>.
         </p>
       </header>
 
