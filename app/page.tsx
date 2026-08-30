@@ -30,7 +30,7 @@ export default function HomePage() {
               </span>
             </Link>
 
-            <div className="grid grid-cols-6 gap-2 md:grid-cols-8 md:gap-3">
+            <div className="grid grid-cols-4 gap-2 md:grid-cols-8 md:gap-3">
               {yearData.books.map((book) => (
                 <a
                   key={book.title}
@@ -42,7 +42,7 @@ export default function HomePage() {
                     alt={`${book.title} by ${book.author}`}
                     fill
                     className="object-cover"
-                    sizes="(max-width: 768px) 16.67vw, 12.5vw"
+                    sizes="(max-width: 768px) 25vw, 12.5vw"
                   />
                 </a>
               ))}
