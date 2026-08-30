@@ -230,10 +230,10 @@ export const bookshelfSections: BookshelfSection[] = [
         cover_image_url: "https://m.media-amazon.com/images/I/71Nm1XLdJ4L._SL1500_.jpg",
       },
       {
-        title: "Essays and Poems",
-        author: "Ralph Waldo Emerson",
-        url: "https://www.amazon.com/Essays-Poems-Ralph-Waldo-Emerson-ebook/dp/B006GHHP8G/ref=tmm_kin_swatch_0",
-        cover_image_url: "https://m.media-amazon.com/images/P/B006GHHP8G.01.LZZZZZZZ.jpg",
+        title: "The New American Bible, Revised Edition",
+        author: "United States Conference of Catholic Bishops",
+        url: "https://www.amazon.com/dp/B006QBDOPK?ref_=ppx_hzsearch_conn_dt_b_fed_digi_asin_title_351_1",
+        cover_image_url: "https://m.media-amazon.com/images/I/71MludAkj1L._SY522_.jpg",
       },
       {
         title: "Aesop's Fables",
@@ -254,10 +254,10 @@ export const bookshelfSections: BookshelfSection[] = [
         "cover_image_url": "/ethics.jpg"
       },
       {
-        title: "The New American Bible, Revised Edition",
-        author: "United States Conference of Catholic Bishops",
-        url: "https://www.amazon.com/dp/B006QBDOPK?ref_=ppx_hzsearch_conn_dt_b_fed_digi_asin_title_351_1",
-        cover_image_url: "https://m.media-amazon.com/images/I/71MludAkj1L._SY522_.jpg",
+        title: "Essays and Poems",
+        author: "Ralph Waldo Emerson",
+        url: "https://www.amazon.com/Essays-Poems-Ralph-Waldo-Emerson-ebook/dp/B006GHHP8G/ref=tmm_kin_swatch_0",
+        cover_image_url: "https://m.media-amazon.com/images/P/B006GHHP8G.01.LZZZZZZZ.jpg",
       },
     ],
   },
