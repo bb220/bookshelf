@@ -39,6 +39,12 @@ export const bookshelfSections: BookshelfSection[] = [
         url: "https://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683",
         cover_image_url: "https://m.media-amazon.com/images/I/81B9BdZnSvL._SL1500_.jpg",
       },
+      {
+        title: "The Art of Way",
+        author: "Sun Tzu",
+        url: "https://www.amazon.com/dp/B073QR86XF",
+        cover_image_url: "https://m.media-amazon.com/images/I/81kB6lKq1aL._SY522_.jpg",
+      },
     ],
   },
   {
