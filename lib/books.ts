@@ -16,24 +16,6 @@ export const bookshelfSections: BookshelfSection[] = [
     year: "2026",
     books: [
       {
-        title: "Thinking, Fast and Slow",
-        author: "Daniel Kahneman",
-        url: "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555",
-        cover_image_url: "https://m.media-amazon.com/images/I/61fdrEuPJwL._SL1500_.jpg",
-      },
-      {
-        title: "Read Your Mind",
-        author: "Oz Pearlman",
-        url: "https://www.amazon.com/Read-Your-Mind-Greatest-Mentalist/dp/B0DVBG7KSR",
-        cover_image_url: "https://images1.penguinrandomhouse.com/cover/9798217059041",
-      },
-      {
-        title: "Walt Disney: The Triumph of the American Imagination",
-        author: "Neal Gabler",
-        url: "https://www.amazon.com/Walt-Disney-Triumph-American-Imagination/dp/0679757473",
-        cover_image_url: "https://m.media-amazon.com/images/I/81XiXNHwwML._SL1500_.jpg",
-      },
-      {
         title: "Enterprise Integration Patterns",
         author: "Gregor Hohpe & Bobby Woolf",
         url: "https://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683",
@@ -44,6 +26,24 @@ export const bookshelfSections: BookshelfSection[] = [
         author: "Sun Tzu",
         url: "https://www.amazon.com/dp/B073QR86XF",
         cover_image_url: "https://m.media-amazon.com/images/I/81kB6lKq1aL._SY522_.jpg",
+      },
+      {
+        title: "Walt Disney: The Triumph of the American Imagination",
+        author: "Neal Gabler",
+        url: "https://www.amazon.com/Walt-Disney-Triumph-American-Imagination/dp/0679757473",
+        cover_image_url: "https://m.media-amazon.com/images/I/81XiXNHwwML._SL1500_.jpg",
+      },
+      {
+        title: "Read Your Mind",
+        author: "Oz Pearlman",
+        url: "https://www.amazon.com/Read-Your-Mind-Greatest-Mentalist/dp/B0DVBG7KSR",
+        cover_image_url: "https://images1.penguinrandomhouse.com/cover/9798217059041",
+      },
+      {
+        title: "Thinking, Fast and Slow",
+        author: "Daniel Kahneman",
+        url: "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555",
+        cover_image_url: "https://m.media-amazon.com/images/I/61fdrEuPJwL._SL1500_.jpg",
       },
     ],
   },
